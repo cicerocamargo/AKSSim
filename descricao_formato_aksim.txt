@@ -1,0 +1,11 @@
+## Este arquivo descreve como está organizado o arquivo de texto
+## com extensão .aksim para leitura da Ferramenta AKSim
+
+- Cada linha descreve um nodo do grafo e as arestas que saem dele da forma
+
+	NODO [CUSTO] (NODO [CUSTO])*
+
+onde:
+
+	NODO : 't'(1-9)+
+	CUSTO : número inteiro positivo
